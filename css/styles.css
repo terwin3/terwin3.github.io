@@ -1,7 +1,12 @@
 
+@font-face {
+	font-family: League Gothic;
+	src: url(LeagueGothic-Regular.otf);
+}
+
 
 body { 
-	background-color: grey;
+	background-color: #B29C85;
 	border-width: 3px;
 	margin: 50px;
 
@@ -9,8 +14,12 @@ body {
 
 #mainheader {
 	text-align: center;
-	color: orange;
-	text-shadow: 2px 1px #000000;
+	color: #FF5335;
+	text-shadow: 5px 1px #000000;
+	font-family: League Gothic;
+	font-size: 85px;
+	padding: 10px;
+	
 }
 
 h1, h3 {
@@ -18,38 +27,43 @@ h1, h3 {
 	color: black;
 }
 
-#one { 
-	margin: 10px;
+.main  { 
+	margin: 0px;
 	padding: 10px;
-}
-
-
-.main {
-
+	color: #3B424C;
 	border: 3px solid;
 	background: white;
-	margin: 10px;
+	margin: auto;
+	text-align: center;
+	font-family: "Roboto";
+	width: 900px;
+	
 }
 
-img.me {
+
+
+	
+ul, img.me {
+	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px;
+	margin-bottom: 0px;
+	margin-top: -55px;
+	padding: 10px;
+	
 }
-
-
-
 ul#menu {
-    padding: 0;
+    padding: 0px;
 }
 
 ul#menu li {
     display: inline;
+    
 }
 
 ul#menu li a {
-    background-color: black;
+    background-color: #222;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -57,4 +71,4 @@ ul#menu li a {
 }
 
 ul#menu li a:hover {
-    background-color: orange;
+    background-color: #FF5335;
