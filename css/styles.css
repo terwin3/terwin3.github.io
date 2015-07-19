@@ -13,7 +13,7 @@ body {
 	text-align: center;
 	color: #F23847;
 	text-shadow: 5px 1px #000000;
-	font-family: 'Lobster';
+	font-family: 'Lobster', sans-serif;
 	font-weight: 400;
 	font-style: cursive;
 	font-size: 75px;
