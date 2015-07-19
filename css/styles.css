@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Lobster';
+	font-family: Lobster;
 	 src: url(http://fonts.googleapis.com/css?family=Lobster&subset=all);
 }
 
@@ -13,9 +13,9 @@ body {
 	text-align: center;
 	color: #F23847;
 	text-shadow: 5px 1px #000000;
-	font-family: 'Lobster', sans-serif;
+	font-family: Lobster, sans-serif;
 	font-weight: 400;
-	
+
 	font-size: 75px;
 	padding: 200px;
 	background-color: #486A8C;
