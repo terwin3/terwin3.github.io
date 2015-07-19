@@ -1,65 +1,77 @@
 <!DOCTYPE html>
   <html>
 		<head>
-<link href="./css/styles.css" rel="stylesheet" type="text/css">		
+<link href="./css/styles.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 
 
 			<title>Diamond Designs</title>
 		</head>
 	<h1 id="mainheader">Diamond Designs</h1>
-	
-			
+
+
 	<ul id="menu">
 				<li><a href="./portfolio.html">Portfolio</a></li>
 				<li><a href="./about.html">About</a><li>
 				<li><a href="./index.html">Intro Page</a></li>
 		</ul>
-	
+
 	    </div>
-	   
-	  
+
+
 	<body>
-		 
-		
-		
+
+
+
 		<img class="me" src="./images/me.jpg" alt="me" style="width:302px;height:199px;">
-		
+
 		 <div class="main">
-		
+
 <p>Hello, my name is Travis, I recently ventured out into the world of freelance web design. I took classes in college for almost a year. I've always wanted to pursue learning web design so that's what I've done and I love it. I decided to start up a company that utilizes my skills to design exactly what businesses (or anyone!) want. I will work with and talk with you through the whole process of how everything runs, we can setup a time to talk and get an idea of what you want on your page. If you would like more information just complete the form below! <em>Note: The form will create a popup for some (or all) users</em></p>
-		
-	</div>	
-	
-	
+
+	</div>
+
+
 	 <div class="emailform">
 	 	<h3>Contact</h3>
-	    <!--images/contact info-->		
+	    <!--images/contact info-->
 		<a href="https://twitter.com/DeathsHandd" target="_blank">
 	    <img src="./images/twittercontact.png" alt="Twitter Contact" style="width:40px;height:30px;">
 		</a>
-		
+
 		<a href="https://www.facebook.com/travis.a.erwin" target="_blank">
 		<img src="./images/facebookcontact.png" alt="Facebook Contact" style="width:40px;height:40px";>
 		</a>
 	    </div>
-	
-	
-    <div class="emailform">
-	<form action="mailto:traviserwin3@gmail.com" enctype="text/plain" method="post">
-<p>Name: <input name="Name" type="text" id="Name" size="40"></p>
-<p>Email: <input name="email" type="text" id="E-mail" size="40"></p>
-<p>Comment:</p>
-<p><textarea name="Comment" cols="55" rows="5"
-id="Comment"></textarea></p>
-<p><input type="submit" name="Submit" value="Submit"></p>
-</form>
-</div>
+
+  <script src="js/form.js"></script>
+  </head>
+  <!-- Body Starts Here -->
+  <body id="body" style="overflow:hidden;">
+  <div id="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/3.png" onclick ="div_hide()">
+  <h2>Contact Me</h2>
+  <hr>
+  <input id="name" name="name" placeholder="Name" type="text">
+  <input id="email" name="email" placeholder="Email" type="text">
+  <textarea id="msg" name="message" placeholder="Message"></textarea>
+  <a href="javascript:%20check_empty()" id="submit">Send</a>
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+  <!-- Display Popup Button -->
+
+  <button id="popup" onclick="div_show()">Email</button>
 
 
-	
 
-	    
-	
+
+
+
  	</body>
  </html>
