@@ -28,14 +28,14 @@ h1, h3 {
 }
 
 .main  { 
-	margin: 0px;
 	padding: 10px;
 	color: #3B424C;
-	border: 3px solid;
+	border: 0px solid;
+	border-radius: 15px;
 	background: white;
 	margin: auto;
 	text-align: center;
-	font-family: "Roboto";
+	font-family: sans-serif, times;
 	width: 900px;
 	
 }
@@ -50,7 +50,7 @@ ul, img.me {
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-top: -55px;
-	padding: 10px;
+	padding: 20px;
 	
 }
 ul#menu {
@@ -68,7 +68,10 @@ ul#menu li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
+    font-family: sans-serif;
 }
 
 ul#menu li a:hover {
     background-color: #FF5335;
+}
+
