@@ -1,6 +1,6 @@
-@@font-face {
+@font-face {
 	font-family: Lobster;
-	 src: url(http://fonts.googleapis.com/css?family=Lobster);
+	 src: url(http://fonts.googleapis.com/css?family=Lobster&subset=all);
 }
 
 body {
@@ -14,8 +14,9 @@ body {
 	color: #F23847;
 	text-shadow: 5px 1px #000000;
 	font-family: 'Lobster';
+	font-weight: 400;
 	font-style: cursive;
-	font-size: 85px;
+	font-size: 75px;
 	padding: 200px;
 	background-color: #486A8C;
 	border: 0px solid;
