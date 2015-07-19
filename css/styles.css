@@ -9,17 +9,7 @@ body {
 	margin: auto;
 
 }
-#mainheader {
-	text-align: center;
-	color: #F23847;
-	text-shadow: 5px 1px #000000;
-	font-family: 'Lobster', sans-serif;
-	font-weight: 400;
 
-	font-size: 75px;
-	padding: 30px;
-	background-color: #486A8C;
-	border: 0px solid;
 
 
 
@@ -50,8 +40,8 @@ img.me {
 
 }
 ul#menu {
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
+    text-align: right;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
