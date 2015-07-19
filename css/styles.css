@@ -1,10 +1,7 @@
 
-@font-face {
-	font-family: League Gothic;
-	src: url(LeagueGothic-Regular.otf);
-}
+
 body {
-	background-color: #91BFD8;
+	background-color: #fff;
 	border-width: 3px;
 	margin: 50px;
 
@@ -13,9 +10,15 @@ body {
 	text-align: center;
 	color: #F23847;
 	text-shadow: 5px 1px #000000;
-	font-family: LeagueGothic-regular;
+	font-family: 'Lobster', cursive;
 	font-size: 85px;
-	padding: 10px;
+	padding: 200px;
+	background-color: #486A8C;
+	border: 0px solid;
+	border-radius: 15px;
+
+
+
 }
 h1, h3 {
 	text-align: center;
@@ -26,7 +29,7 @@ h1, h3 {
 	color: #fff;
 	border: 0px solid;
 	border-radius: 15px;
-	background-color: #444;
+	background-color: #486A8C;
 	margin: auto;
 	text-align: center;
 	font-family: sans-serif, times;
@@ -42,13 +45,13 @@ img.me {
 
 }
 ul#menu {
-    padding: 0px;
+    padding: 10px;
     text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0px;
-	margin-top: -55px;
+	margin-top: -95px;
 }
 ul#menu li {
     display: inline;
@@ -70,120 +73,4 @@ ul#menu li a:hover {
 	text-align: center;
 	font-family: sans-serif;
 	color: #3B424C;
-}
-
-
-@import "http://fonts.googleapis.com/css?family=Raleway";
-/*----------------------------------------------
-CSS settings for HTML div Exact Center
-------------------------------------------------*/
-#abc {
-width:100%;
-height:100%;
-opacity:.95;
-top:0;
-left:0;
-display:none;
-position:fixed;
-background-color:#333;
-overflow:auto
-}
-img#close {
-position:absolute;
-right:-14px;
-top:-14px;
-cursor:pointer
-}
-div#popupContact {
-position:absolute;
-left:50%;
-top:17%;
-margin-left:-202px;
-font-family:'Raleway',sans-serif
-}
-form {
-max-width:300px;
-min-width:250px;
-padding:10px 50px;
-border:2px solid gray;
-border-radius:10px;
-font-family:raleway;
-background-color:#fff
-}
-p {
-margin-top:30px
-}
-h2 {
-background-color: #6B89B5;
-padding:20px 35px;
-margin:-10px -50px;
-text-align:center;
-border-radius:10px 10px 0 0
-}
-hr {
-margin:10px -50px;
-border:0;
-border-top:1px solid #ccc
-}
-input[type=text] {
-width:82%;
-padding:10px;
-margin-top:30px;
-border:1px solid #ccc;
-padding-left:40px;
-font-size:16px;
-font-family:raleway
-}
-#name {
-background-image:url(../images/name.jpg);
-background-repeat:no-repeat;
-background-position:5px 7px
-}
-#email {
-background-image:url(../images/email.png);
-background-repeat:no-repeat;
-background-position:5px 7px
-}
-textarea {
-background-image:url(../images/msg.png);
-background-repeat:no-repeat;
-background-position:5px 7px;
-width:82%;
-height:95px;
-padding:10px;
-resize:none;
-margin-top:30px;
-border:1px solid #ccc;
-padding-left:40px;
-font-size:16px;
-font-family:raleway;
-margin-bottom:30px
-}
-#submit {
-text-decoration:none;
-width:100%;
-text-align:center;
-display:block;
-background-color:#444;
-color:#fff;
-border:1px solid #FFCB00;
-padding:10px 0;
-font-size:20px;
-cursor:pointer;
-border-radius:5px
-}
-span {
-color:red;
-font-weight:700
-}
-button {
-width:10%;
-height:45px;
-border-radius:3px;
-background-color:#F23847;
-color:#fff;
-font-family:'Raleway',sans-serif;
-font-size:18px;
-cursor:pointer
-text-align:center;
 }
