@@ -75,3 +75,11 @@ ul#menu li a:hover {
     background-color: #FF5335;
 }
 
+.emailform {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #3B424C;
+	
+}
