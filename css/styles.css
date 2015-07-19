@@ -43,18 +43,23 @@ h1, h3 {
 
 
 	
-ul, img.me {
+img.me {
 	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	
+	
+}
+ul#menu {
+    padding: 0px;
+    text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-top: -55px;
-	padding: 20px;
-	
-}
-ul#menu {
-    padding: 0px;
 }
 
 ul#menu li {
