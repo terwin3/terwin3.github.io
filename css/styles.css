@@ -1,20 +1,13 @@
-@font-face {
-	font-family: Lobster;
-	 src: url(Lobster-Regular.ttf);
-}
-
 
 body {
 	background-color: #fff;
 	border-width: 3px;
 	margin: auto;
-
 }
-
-
-
-
-
+#mainheader {
+	text-align: center;
+	font-family: raleway;
+	color: #333;
 }
 h1, h3 {
 	text-align: center;
@@ -29,7 +22,8 @@ h1, h3 {
 	margin: auto;
 	text-align: center;
 	font-family: sans-serif, times;
-	width: 900px;
+	width: 100%;
+	max-width: 35em;
 }
 img.me {
 	text-align: center;
@@ -37,15 +31,12 @@ img.me {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-
-
 }
 ul#menu {
-    padding: 20px;
+    padding: -150px;
     text-align: right;
-	display: block;
-
-}
+	  display: block;
+	}
 ul#menu li {
     display: inline;
 }
@@ -55,10 +46,12 @@ ul#menu li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
-    font-family: sans-serif;
+    font-family: raleway;
+		font-weight: 200;
+		color: #fff;
 }
 ul#menu li a:hover {
-    background-color: #F23847;
+    background-color: #333;
 }
 .emailform {
 	margin: auto;
@@ -67,7 +60,8 @@ ul#menu li a:hover {
 	font-family: sans-serif;
 	color: #3B424C;
 }
-
 .bookmarks {
 		text-align: center;
+		font-family: raleway;
+		color: #333;
 }
