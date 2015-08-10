@@ -65,3 +65,9 @@ ul#menu li a:hover {
 		font-family: raleway;
 		color: #333;
 }
+
+img.mainlogo {
+	
+	margin:auto;
+	display: block;
+}
