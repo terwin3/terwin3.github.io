@@ -1,0 +1,92 @@
+@media (max-device-width: 1024px) {
+  /*IPad portrait AND netbooks, AND anything with smaller screen*/
+  /*make the design flexible if possible */
+  /*Structure your code thinking about all devices that go below*/
+}
+@media (max-device-width: 640px) {
+ /*Iphone portrait and smaller*/
+}
+@media (max-device-width: 540px) {
+ /*Smaller and smaller...*/
+}
+@media (max-device-width: 320px) {
+ /*IPhone portrait and smaller. You can probably stop on 320px*/
+}
+
+  body {
+  	background-color: #fff;
+  	border-width: 3px;
+  	margin: auto;
+  }
+  #mainheader {
+  	text-align: center;
+  	font-family: 'Raleway', sans-serif;
+  	color: #333;
+  }
+  h1, h3 {
+  	text-align: center;
+  	color: black;
+  }
+  .main  {
+  	padding: 10px;
+  	color: #fff;
+  	border: 0px solid;
+  	border-radius: 15px;
+  	background-color: #486A8C;
+  	margin: auto;
+  	text-align: center;
+  	font-family: sans-serif, times;
+  	width: 100%;
+  	max-width: 35em;
+  }
+  img.me {
+  	text-align: center;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  padding: 5px;
+
+  }
+  ul#menu {
+      padding: -150px;
+      text-align: right;
+  	  display: block;
+  	}
+  ul#menu li {
+      display: inline;
+  }
+  ul#menu li a {
+      background-color: #486A8C;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px 4px 0 0;
+      font-family: raleway;
+  		font-weight: 200;
+  		color: #fff;
+  }
+  ul#menu li a:hover {
+      background-color: #333;
+  }
+  a img {
+  	border: 0 none;
+  }
+  .emailform {
+  	margin: auto;
+  	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+
+
+  }
+  .bookmarks {
+  		text-align: center;
+  		font-family: raleway;
+  		color: #333;
+  }
+
+  img.mainlogo {
+
+  	margin:auto;
+  	display: block;
+  }
