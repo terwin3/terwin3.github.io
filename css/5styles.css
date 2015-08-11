@@ -1,15 +1,15 @@
-@media (max-device-width: 1024px) {
+@media only screen and (min-device-width: 1024px) {
   /*IPad portrait AND netbooks, AND anything with smaller screen*/
   /*make the design flexible if possible */
   /*Structure your code thinking about all devices that go below*/
 }
-@media (max-device-width: 640px) {
+@media only screen and (min-device-width: 640px) {
  /*Iphone portrait and smaller*/
 }
-@media (max-device-width: 540px) {
+@media only screen and (min-device-width: 540px) {
  /*Smaller and smaller...*/
 }
-@media (max-device-width: 320px) {
+@media only screen and (min-device-width: 320px) {
  /*IPhone portrait and smaller. You can probably stop on 320px*/
 }
 
