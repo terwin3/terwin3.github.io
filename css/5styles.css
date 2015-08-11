@@ -58,7 +58,7 @@
   ul#menu li a {
       background-color: #486A8C;
       color: white;
-      padding: 10px 20px;
+      padding: 0.010em 0.020em;
       text-decoration: none;
       border-radius: 4px 4px 0 0;
       font-family: raleway;
