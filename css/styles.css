@@ -76,3 +76,11 @@ img.mainlogo {
 	margin:auto;
 	display: block;
 }
+
+footer{
+	text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
