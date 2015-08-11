@@ -15,7 +15,7 @@
 
   body {
   	background-color: #fff;
-  	border-width: 3px;
+  	border-width: 0.003em;
   	margin: auto;
   }
   #mainheader {
@@ -28,10 +28,10 @@
   	color: black;
   }
   .main  {
-  	padding: 10px;
+  	padding: 0.010em;
   	color: #fff;
   	border: 0px solid;
-  	border-radius: 15px;
+  	border-radius: 0.015;
   	background-color: #486A8C;
   	margin: auto;
   	text-align: center;
