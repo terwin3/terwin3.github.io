@@ -1,8 +1,8 @@
 /* Header */
 .large-header {
-
+  position: relative;
   width: 100%;
-  height: auto;
+  
 
   background: #333;
   overflow: hidden;
