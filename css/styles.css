@@ -142,7 +142,7 @@ footer{
 
 
 	@media only screen and (max-device-width: 480px) {
-		.main {
+		.main,  {
 				padding: 10px;
 				color: #fff;
 				border: 0px solid;
@@ -153,6 +153,9 @@ footer{
 				font-family: sans-serif, times;
 				width: 50%;
 				height: 50%;
-
+}
+img.mainlogo {
+	display: none;
+}
 
 		}
