@@ -93,6 +93,8 @@ footer{
 	@media only screen and (max-device-width: 480px) {
 		.main,  {
 				padding: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
 				color: #fff;
 				border: 0px solid;
 				border-radius: 15px;
@@ -116,9 +118,9 @@ img.me {
 
 }
 ul#menu {
-    
+
     text-align: center;
-	  display: block;
+
 
 
 		}
