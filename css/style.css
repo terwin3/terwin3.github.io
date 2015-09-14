@@ -4,8 +4,6 @@
 .large-header {
   position: relative;
   width: 100%;
-
-
   background: #333;
   overflow: hidden;
   background-size: cover;
@@ -37,7 +35,13 @@
 }
 @media only screen and (max-device-width: 480px) {
   .large-header {
-    width: 50%
+    width: 50%;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
 
   }
 }
