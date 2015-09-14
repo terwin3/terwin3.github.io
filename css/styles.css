@@ -139,3 +139,18 @@ footer{
 	            transform: translateY(46px);
 	  }
 	}
+
+
+	@media only screen and (max-device-width: 480px) {
+		.main {
+				padding: 10px;
+				color: #fff;
+				border: 0px solid;
+				border-radius: 15px;
+				background-color: #486A8C;
+				margin: auto;
+				text-align: center;
+				font-family: sans-serif, times;
+				width: 50%;
+				max-width: 20em;
+		}
