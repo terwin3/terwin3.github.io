@@ -36,6 +36,7 @@
 @media only screen and (max-device-width: 480px) {
   .large-header {
 display: none;
+overflow: hidden;
 
 
   }
