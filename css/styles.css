@@ -158,8 +158,12 @@ img.mainlogo {
 
 }
 img.me {
-	
+
 	display: none;
+}
+	html {
+    overflow-y: scroll;
+    overflow-x: hidden;
 
 
 		}
