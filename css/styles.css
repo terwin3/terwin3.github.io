@@ -21,7 +21,7 @@ h1, h3 {
 	background-color: #486A8C;
 	margin: auto;
 	text-align: center;
-	font-family: sans-serif, times;
+	font-family: "sans-serif", times;
 	width: 100%;
 	max-width: 35em;
 }
@@ -91,10 +91,9 @@ footer{
 
 
 	@media only screen and (max-device-width: 480px) {
-		.main,  {
+		.main  {
 				padding: 10px;
 				padding-left: 10px;
-				padding-right: 10px;
 				color: #fff;
 				border: 0px solid;
 				border-radius: 15px;
@@ -102,7 +101,7 @@ footer{
 				margin: auto;
 				text-align: center;
 				font-family: sans-serif, times;
-				width: 70%
+				width: 95%;
 }
 img.mainlogo {
 	display: none;
@@ -118,9 +117,9 @@ img.me {
 
 }
 ul#menu {
-
     text-align: center;
-		margin:auto;
+		margin: auto;
+		margin-right: 40px;
 
 
 
