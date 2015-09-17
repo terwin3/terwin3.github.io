@@ -6,7 +6,8 @@ body {
 }
 #mainheader {
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway';
+	font-weight: 800;
 	color: #333;
 }
 h1, h3 {
@@ -47,7 +48,7 @@ ul#menu li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway';
 		font-weight: 200;
 		color: #fff;
 }
