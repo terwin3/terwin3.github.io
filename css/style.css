@@ -12,7 +12,6 @@
 #large-header {
 color: #444;
 }
-
 .main-title {
 	position: absolute;
 	margin: 0;
@@ -35,8 +34,11 @@ color: #444;
 	font-weight: 200;
 }
 
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
+@media only screen and (max-device-width: 480px) {
+  .large-header {
+display: none;
+overflow: hidden;
+
 }
+
+  }
